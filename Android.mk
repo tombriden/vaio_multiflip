@@ -2,8 +2,7 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := vaio_multiflip.c
-LOCAL_SHARED_LIBS := libc
-LOCAL_LDLIBS := -llog
+LOCAL_SHARED_LIBRARIES := libc liblog
  
 LOCAL_CFLAGS := -g
 
